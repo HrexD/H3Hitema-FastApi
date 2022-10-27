@@ -6,7 +6,7 @@ import databases
 import sqlalchemy
 from datetime import datetime
 
-DATABASE_URL = "sqlite:///./db_test.db"
+DATABASE_URL = "sqlite:///./test.db"
 
 metadata = sqlalchemy.MetaData()
 
